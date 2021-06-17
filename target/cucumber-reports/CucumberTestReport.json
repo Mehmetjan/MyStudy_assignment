@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Form - Patient App Web - Basic",
+        "description": "",
+        "id": "form-step;form---patient-app-web---basic",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Patient navigate to activity list as \"carlos.escribano+chall3@medable.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Patient select Form Step Task on activity list page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Patient completes Form step with values",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Type",
+                  "Value"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Email Step",
+                  "a@a.com"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Text Step",
+                  "Automation"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Numeric Step",
+                  "21"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Value Picker Step",
+                  "Option 1"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Boolean Step",
+                  "True"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Continuous Scale Step",
+                  "5.5"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Integer Scale Step",
+                  "5"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Location Step",
+                  "Cordoba,Argentina"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "text Scale Step",
+                  "1"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Time Interval Step",
+                  "2-2"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Time of Day Step",
+                  "1-1-PM"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Form Step",
+    "description": "",
+    "id": "form-step",
+    "keyword": "Feature",
+    "uri": "formStep.feature"
+  }
+]
